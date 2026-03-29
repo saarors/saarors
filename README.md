@@ -1,5 +1,5 @@
 ## Hi there !
-[![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](saarleshembar@gmail.com) 
+[![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:saarleshembar@gmail.com) 
 ![svgfile](me.svg)
 
 I’m saar,  Programmer in python, js, typescript, C, and C++.
