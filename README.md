@@ -6,10 +6,10 @@ I’m saar,  Programmer in python, js, typescript, C, and C++.
 
 I have contributed to many projects, the most well-known of which are: cline, react, and xgboost.
 
-"
-```
+
+"```
 let hi = "12";
 hi = hi |0;
 console.log(hi)
-```
-"
+```"
+
