@@ -8,5 +8,5 @@ I have contributed to many projects, the most well-known of which are: cline, re
 
 
 # stats
-![github stats](https://streak-stats.demolab.com/?user=saarors)
+![github stats](https://streak-stats.demolab.com/?user=saarors&theme=dracula&hide_border=true)
 
