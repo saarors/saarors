@@ -73,19 +73,22 @@
     <h1>README.md</h1>
     <div id="app">Loading...</div>
 
-    <script>
-        fetch('https://raw.githubusercontent.com/saarors/saarors/main/README.md')
-            .then(res => {
-                if (!res.ok) throw new Error("Failed to fetch README");
-                return res.text();
-            })
-            .then(md => {
-                document.getElementById('app').innerHTML = marked.parse(md);
-            })
-            .catch(err => {
-                document.getElementById('app').innerText = "Error: " + err.message;
-            });
-    </script>
+<script>
+fetch('https://raw.githubusercontent.com/saarors/saarors/main/README.md')
+  .then(res => {
+    console.log("STATUS:", res.status);
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    return res.text();
+  })
+  .then(md => {
+    console.log("README LOADED");
+    document.getElementById('app').innerHTML = marked.parse(md);
+  })
+  .catch(err => {
+    console.error(err);
+    document.getElementById('app').innerText = "Error: " + err.message;
+  });
+</script>
 
 </body>
 </html>
