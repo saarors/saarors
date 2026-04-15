@@ -4,58 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>saarors github profile</title>
-      <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
         body {
             background-color: #0f0f0f;
             font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+            margin: 0;
+            color: white;
         }
+
         .profile-container {
             background-color: #1a1a1a;
             border-radius: 10px;
             padding: 20px;
             text-align: center;
-            color: #ffffff;
+            width: 300px;
+            margin: 40px auto;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
+
         .profile-image {
             width: 150px;
             height: 150px;
             border-radius: 50%;
             margin-bottom: 20px;
         }
+
         .profile-name {
             font-size: 24px;
             font-weight: bold;
             margin-bottom: 10px;
         }
+
         .profile-bio {
             font-size: 16px;
             color: #cccccc;
         }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #app {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #1a1a1a;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        a {
+            color: #4ea1ff;
+        }
     </style>
 </head>
 <body>
+
     <div class="profile-container">
-        <img src="https://avatars.githubusercontent.com/u/171342946?s=400&u=c2c27567dc8965ff792dc7e9743adc9776909a4b&v=4" alt="saarors profile picture" class="profile-image">
+        <img src="https://avatars.githubusercontent.com/u/171342946?v=4" class="profile-image">
         <div class="profile-name">saarors</div>
         <div class="profile-bio">Software Developer | Open Source Enthusiast | Open source contributor</div>
         <div class="profile-links">
             <a href="https://github.com/saarors" target="_blank">GitHub</a>
         </div>
     </div>
+
     <h1>README.md</h1>
-    <div id="app"></div>
-      <script>
-    fetch('https://raw.githubusercontent.com/saarors/saarors/refs/heads/main/README.md')
-      .then(res => res.text())
-      .then(md => {
-        document.getElementById('app').innerHTML = marked.parse(md);
-      });
-  </script>
+    <div id="app">Loading...</div>
+
+    <script>
+        fetch('https://raw.githubusercontent.com/saarors/saarors/main/README.md')
+            .then(res => {
+                if (!res.ok) throw new Error("Failed to fetch README");
+                return res.text();
+            })
+            .then(md => {
+                document.getElementById('app').innerHTML = marked.parse(md);
+            })
+            .catch(err => {
+                document.getElementById('app').innerText = "Error: " + err.message;
+            });
+    </script>
+
 </body>
 </html>
