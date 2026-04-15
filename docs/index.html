@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -74,19 +75,24 @@
     <div id="app">Loading...</div>
 
 <script>
-fetch('https://raw.githubusercontent.com/saarors/saarors/main/README.md')
+fetch('https://api.github.com/repos/saarors/saarors/contents/README.md')
   .then(res => {
-    console.log("STATUS:", res.status);
     if (!res.ok) throw new Error("HTTP " + res.status);
-    return res.text();
+    return res.json();
   })
-  .then(md => {
-    console.log("README LOADED");
+  .then(data => {
+    const base64 = data.content.replace(/\n/g, '');
+    const md = decodeURIComponent(
+      Array.from(atob(base64))
+        .map(c => '%' + c.charCodeAt(0).toString(16).padStart(2, '0'))
+        .join('')
+    );
+
     document.getElementById('app').innerHTML = marked.parse(md);
   })
   .catch(err => {
-    console.error(err);
     document.getElementById('app').innerText = "Error: " + err.message;
+    console.error(err);
   });
 </script>
 
