@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>saarors github profile</title>
+      <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
         body {
             background-color: #0f0f0f;
@@ -47,5 +48,13 @@
             <a href="https://github.com/saarors" target="_blank">GitHub</a>
         </div>
     </div>
+    <h1>README.md</h1>
+      <script>
+    fetch('https://raw.githubusercontent.com/saarors/saarors/refs/heads/main/README.md')
+      .then(res => res.text())
+      .then(md => {
+        document.getElementById('app').innerHTML = marked.parse(md);
+      });
+  </script>
 </body>
 </html>
