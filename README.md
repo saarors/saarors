@@ -9,3 +9,7 @@ I have contributed to many projects, the most well-known of which are: cline, re
 
 # stats
 ![github stats](https://streak-stats.demolab.com/?user=saarors)
+
+# Contact
+
+![email](mailto:saarleshembar@gmail.com)
