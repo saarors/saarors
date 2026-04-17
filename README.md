@@ -6,7 +6,6 @@ I’m saar, Programmer in python, javascript, typescript, C, php, lua, C#, C++ a
 
 i’m looking for Collaboration
 
-I have contributed to many projects, the most well-known of which are: cline, react, and xgboost.
 
 
 # stats
