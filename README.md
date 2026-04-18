@@ -12,4 +12,4 @@ i’m looking for Collaboration
 ![github stats](https://streak-stats.demolab.com/?user=saarors&theme=dracula&color=black&hide_border=true)
 
 # contribution snake
-![](https://raw.githubusercontent.com/<username>/<username>/output/github-contribution-grid-snake.svg)
+![](https://raw.githubusercontent.com/saarors/saarors/output/github-contribution-grid-snake.svg)
