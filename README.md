@@ -2,7 +2,7 @@
 [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:saarleshembar@gmail.com) 
 ![svgfile](me.svg)
 
-I’m saar, Programmer in python, javascript, typescript, C, php, lua, C#, C++ and more.
+I’m saar.
 
 i’m looking for Collaboration
 
