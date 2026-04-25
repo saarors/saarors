@@ -3,8 +3,7 @@
 ![svgfile](me.svg)
 
 # big project
-(the thor project)[github.com/the-thor-project]
-
+[the thor project](https://github.com/the-thor-project)
 
 
 # stats
