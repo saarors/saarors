@@ -53,7 +53,7 @@ A major initiative showcasing collaborative development and innovative solutions
 I'd love to hear from you! Feel free to reach out:
 
 - 💼 **Email:** [saarleshembar@gmail.com](mailto:saarleshembar@gmail.com)
-- 🐙 **GitHub:** [@saarors]([https://github.com/saarors](https://did.li/mgjba))
+- 🐙 **GitHub:** [@saarors]([saarors](https://did.li/mgjba)
 
 ---
 
