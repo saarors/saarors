@@ -54,8 +54,6 @@ I'd love to hear from you! Feel free to reach out:
 
 - 💼 **Email:** [saarleshembar@gmail.com](mailto:saarleshembar@gmail.com)
 - 🐙 **GitHub:** [@saarors](https://github.com/saarors)
-- 📈 **LinkedIn:** [Add your profile]
-- 🐦 **Twitter:** [Add your handle]
 
 ---
 
