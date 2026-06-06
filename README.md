@@ -1,8 +1,5 @@
 # Hi there, I'm Saar! 👋
 
-Main - gmail: saarleshembar@gmail.com
-outlook - saarleshembar@outlook.com
-
 Welcome to my GitHub profile! I'm a passionate developer and open-source enthusiast committed to building impactful software solutions.
 
 ---
@@ -53,9 +50,9 @@ A major initiative showcasing collaborative development and innovative solutions
 
 I'd love to hear from you! Feel free to reach out:
 
-- 💼 **Email:** [saarleshembar@gmail.com](mailto:saarleshembar@gmail.com)
-- 🐙 **GitHub:** [@saarors](https://did.li/mgjba)
-
+Main - gmail: saarleshembar@gmail.com
+<br />
+outlook - saarleshembar@outlook.com
 ---
 
 ## 🐍 Contribution Activity
