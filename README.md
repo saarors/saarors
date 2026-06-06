@@ -1,6 +1,7 @@
 # Hi there, I'm Saar! 👋
 
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:saarleshembar@gmail.com)
+Main - gmail: saarleshembar@gmail.com
+outlook - saarleshembar@outlook.com
 
 Welcome to my GitHub profile! I'm a passionate developer and open-source enthusiast committed to building impactful software solutions.
 
