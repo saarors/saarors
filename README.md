@@ -19,10 +19,13 @@ I'm dedicated to writing clean, maintainable code and collaborating with amazing
 
 ## 🛠️ Technologies & Tools
 
-**Languages:** JavaScript, Python, Java, TypeScript  
-**Frameworks & Libraries:** React, Node.js, Django, Spring  
-**Tools & Platforms:** Git, Docker, AWS, GitHub Actions  
-**Databases:** PostgreSQL, MongoDB, Redis
+TypeScript
+Express
+Node.js
+C
+Go
+Security
+Compiler Design
 
 ## 📊 GitHub Stats
 
