@@ -1,6 +1,6 @@
 # Hi there, I'm Saar! 👋
 
-Welcome to my GitHub profile! I'm a passionate developer and open-source enthusiast committed to building impactful software solutions.
+Welcome to my GitHub profile! I build security tools, programming language tooling and developer infrastructure. Most of my work focuses on low-level systems, compilers and production-ready developer tooling.
 
 ---
 
