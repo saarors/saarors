@@ -64,10 +64,6 @@ outlook - saarleshembar@outlook.com
 
 ---
 
-### ✨ Fun Fact
-*Add something interesting about yourself here – your personality makes your profile memorable!*
-
----
 
 **Thanks for visiting my profile! Feel free to explore my repositories, and don't hesitate to reach out if you'd like to collaborate.** 🚀
 
