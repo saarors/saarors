@@ -19,13 +19,13 @@ I'm dedicated to writing clean, maintainable code and collaborating with amazing
 
 ## 🛠️ Technologies & Tools
 
-TypeScript
-Express
-Node.js
-C
-Go
-Security
-Compiler Design
+TypeScript,
+Express,
+Node.js,
+C,
+Go,
+Security,
+Compiler Design.
 
 ## 📊 GitHub Stats
 
